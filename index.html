@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+		<style type="text/css">
+			.wrap{
+				background: white;
+				margin:30px auto;
+			}
+			.headr,.nav,.fonoter{
+				height: 100px;
+				background:greenyellow;
+				margin-bottom: 20px;
+				text-align: center;
+				line-height: 100px;
+			}
+			.box{
+				height: 200px;
+				margin-bottom: 20px;
+				text-align: center;
+			}
+			.box1{
+				background: greenyellow;
+			}
+			.box2{
+				background: palevioletred;
+			}
+				@media only screen and (min-width:414px ) {
+					.box1{
+						width: 65%;
+						float: left;
+					}
+					.box2{
+						width: 34%;
+						float:right;
+					}
+				}
+				.box3{
+					overflow: hidden;
+				}
+		</style>
+	</head>
+	<body>
+		<div class="wrap">
+			<div class="headr">页头</div>
+			<div class="nav">导航</div>
+			<div class="box3">
+			<div class="box box1">主体</div>
+			<div class="box box2">边栏</div>
+			</div>
+			<div class="fonoter">
+				页脚
+			</div>
+		</div>
+	</body>
+</html>
